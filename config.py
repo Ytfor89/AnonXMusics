@@ -25,9 +25,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonXMusic")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/namohxmusicupdates")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/namohmusicsupport")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Ytfor89/NAMOH-MUSIC")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
