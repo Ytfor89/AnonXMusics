@@ -27,7 +27,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/namohxmusicupdates")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/namohmusicsupport")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://te.legra.ph/file/e6471d19bd04a5095436a.mp4")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Ytfor89/NAMOH-MUSIC")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
